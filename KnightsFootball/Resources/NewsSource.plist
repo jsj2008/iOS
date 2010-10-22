@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Titles</key>
+	<array>
+		<string>Knights Athletics</string>
+		<string>UCF Sports</string>
+		<string>UCF Pride</string>
+		<string>O&apos;Leary Blogs</string>
+		<string>Student Paper</string>
+	</array>
+	<key>Values</key>
+	<array>
+		<string>http://ucfathletics.cstv.com/sports/m-footbl/headline-rss.xml</string>
+		<string>http://ucf.rivals.com/rss2feed.asp?SID=908</string>
+		<string>http://feeds2.feedburner.com/sports/college/goldenknightsnotepad</string>
+		<string>http://olearypsiphi.com/RSS/rss.php</string>
+		<string>http://www.centralfloridafuture.com/se/central-florida-future-rss-1.991045</string>
+	</array>
+</dict>
+</plist>

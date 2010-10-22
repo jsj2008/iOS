@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Titles</key>
+	<array>
+		<string>Noles Athletics</string>
+		<string>Warchant</string>
+		<string>Noles Digest</string>
+		<string>FSU News</string>
+		<string>Tomahawk Nation</string>
+	</array>
+	<key>Values</key>
+	<array>
+		<string>http://www.seminoles.com/sports/m-footbl/headline-rss.xml</string>
+		<string>http://floridastate.rivals.com/rss2feed.asp?SID=1061</string>
+		<string>http://rss.scout.com/rss.aspx?sid=16</string>
+		<string>http://www.fsu.com/rss/feed/news</string>
+		<string>http://feeds.feedburner.com/sportsblogs/tomahawknation.xml</string>
+	</array>
+</dict>
+</plist>

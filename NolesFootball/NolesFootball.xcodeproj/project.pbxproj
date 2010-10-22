@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* AppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		C91A0BCD11FE5E1400221FFB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C91A0BCC11FE5E1400221FFB /* CoreGraphics.framework */; };
+		C91E6E25126EA4DA00BD302D /* NewsSource.plist in Resources */ = {isa = PBXBuildFile; fileRef = C91E6E24126EA4DA00BD302D /* NewsSource.plist */; };
+		C92024E3120078C5005E6D99 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C92024E2120078C5005E6D99 /* icon@2x.png */; };
+		C92024E51200794B005E6D99 /* Icon72.png in Resources */ = {isa = PBXBuildFile; fileRef = C92024E41200794B005E6D99 /* Icon72.png */; };
+		C92024ED12007AFD005E6D99 /* MainWindow-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = C92024EC12007AFD005E6D99 /* MainWindow-iPad.xib */; };
+		C92D51461251694700A5F361 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C92D51451251694700A5F361 /* SystemConfiguration.framework */; };
+		C96669B811FA615800B057E0 /* HeadlinesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C96669B711FA615800B057E0 /* HeadlinesViewController.m */; };
+		C96669BF11FA617E00B057E0 /* LinkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C96669BE11FA617E00B057E0 /* LinkViewController.m */; };
+		C9666A0511FA626B00B057E0 /* SchedulesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C96669FA11FA626B00B057E0 /* SchedulesViewController.m */; };
+		C9666A0811FA626B00B057E0 /* StadiumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9666A0011FA626B00B057E0 /* StadiumViewController.m */; };
+		C9666A0A11FA626B00B057E0 /* StaffViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9666A0411FA626B00B057E0 /* StaffViewController.m */; };
+		C96EB03111FA5E75001D1179 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = C96EB03011FA5E75001D1179 /* MainWindow.xib */; };
+		C96EB04811FA5F07001D1179 /* 20-gear2.png in Resources */ = {isa = PBXBuildFile; fileRef = C96EB03B11FA5F06001D1179 /* 20-gear2.png */; };
+		C96EB04911FA5F07001D1179 /* 28-star.png in Resources */ = {isa = PBXBuildFile; fileRef = C96EB03C11FA5F06001D1179 /* 28-star.png */; };
+		C96EB04A11FA5F07001D1179 /* 83-calendar.png in Resources */ = {isa = PBXBuildFile; fileRef = C96EB03D11FA5F06001D1179 /* 83-calendar.png */; };
+		C96EB04B11FA5F07001D1179 /* 103-map.png in Resources */ = {isa = PBXBuildFile; fileRef = C96EB03E11FA5F06001D1179 /* 103-map.png */; };
+		C96EB04C11FA5F07001D1179 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C96EB03F11FA5F06001D1179 /* Default.png */; };
+		C96EB04D11FA5F07001D1179 /* DoakCampbellStadium.gif in Resources */ = {isa = PBXBuildFile; fileRef = C96EB04011FA5F06001D1179 /* DoakCampbellStadium.gif */; };
+		C96EB04E11FA5F07001D1179 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C96EB04111FA5F06001D1179 /* icon.png */; };
+		C96EB04F11FA5F07001D1179 /* link.png in Resources */ = {isa = PBXBuildFile; fileRef = C96EB04211FA5F06001D1179 /* link.png */; };
+		C96EB05011FA5F07001D1179 /* openbook.png in Resources */ = {isa = PBXBuildFile; fileRef = C96EB04311FA5F06001D1179 /* openbook.png */; };
+		C96EB05111FA5F07001D1179 /* Placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = C96EB04411FA5F06001D1179 /* Placeholder.png */; };
+		C96EB05311FA5F07001D1179 /* StadiumMap.xib in Resources */ = {isa = PBXBuildFile; fileRef = C96EB04611FA5F07001D1179 /* StadiumMap.xib */; };
+		C96EB08111FA606A001D1179 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C96EB08011FA606A001D1179 /* libxml2.dylib */; };
+		C9878D1D12076407007E9BF2 /* libSharedCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C9878D1A12076400007E9BF2 /* libSharedCore.a */; };
+		C9878D6F1207667F007E9BF2 /* PLBlocks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9878D6E1207667F007E9BF2 /* PLBlocks.framework */; };
+		C9B3EC8911FEA61900591851 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C9B3EC8B11FEA61900591851 /* Localizable.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C9878D1912076400007E9BF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9878D1212076400007E9BF2 /* SharedCore.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC07E0554694100DB518D;
+			remoteInfo = SharedCore;
+		};
+		C9878D1E12076419007E9BF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9878D1212076400007E9BF2 /* SharedCore.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = SharedCore;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* NolesFootball.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NolesFootball.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		28A0AB4B0D9B1048005BE974 /* NolesFootball_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NolesFootball_Prefix.pch; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* NolesFootball-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "NolesFootball-Info.plist"; path = "../NolesFootball-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		C91A0BCC11FE5E1400221FFB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C91E6E24126EA4DA00BD302D /* NewsSource.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = NewsSource.plist; sourceTree = "<group>"; };
+		C92024E2120078C5005E6D99 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		C92024E41200794B005E6D99 /* Icon72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon72.png; path = "Resources-iPad/Icon72.png"; sourceTree = SOURCE_ROOT; };
+		C92024EC12007AFD005E6D99 /* MainWindow-iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "MainWindow-iPad.xib"; path = "Resources-iPad/MainWindow-iPad.xib"; sourceTree = SOURCE_ROOT; };
+		C92D51451251694700A5F361 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		C96669B611FA615800B057E0 /* HeadlinesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeadlinesViewController.h; sourceTree = "<group>"; };
+		C96669B711FA615800B057E0 /* HeadlinesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeadlinesViewController.m; sourceTree = "<group>"; };
+		C96669BD11FA617E00B057E0 /* LinkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkViewController.h; sourceTree = "<group>"; };
+		C96669BE11FA617E00B057E0 /* LinkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinkViewController.m; sourceTree = "<group>"; };
+		C96669F911FA626B00B057E0 /* SchedulesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SchedulesViewController.h; sourceTree = "<group>"; };
+		C96669FA11FA626B00B057E0 /* SchedulesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SchedulesViewController.m; sourceTree = "<group>"; };
+		C96669FF11FA626B00B057E0 /* StadiumViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StadiumViewController.h; sourceTree = "<group>"; };
+		C9666A0011FA626B00B057E0 /* StadiumViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StadiumViewController.m; sourceTree = "<group>"; };
+		C9666A0311FA626B00B057E0 /* StaffViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StaffViewController.h; sourceTree = "<group>"; };
+		C9666A0411FA626B00B057E0 /* StaffViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StaffViewController.m; sourceTree = "<group>"; };
+		C96EB03011FA5E75001D1179 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		C96EB03B11FA5F06001D1179 /* 20-gear2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "20-gear2.png"; sourceTree = "<group>"; };
+		C96EB03C11FA5F06001D1179 /* 28-star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "28-star.png"; sourceTree = "<group>"; };
+		C96EB03D11FA5F06001D1179 /* 83-calendar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "83-calendar.png"; sourceTree = "<group>"; };
+		C96EB03E11FA5F06001D1179 /* 103-map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "103-map.png"; sourceTree = "<group>"; };
+		C96EB03F11FA5F06001D1179 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		C96EB04011FA5F06001D1179 /* DoakCampbellStadium.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = DoakCampbellStadium.gif; sourceTree = "<group>"; };
+		C96EB04111FA5F06001D1179 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		C96EB04211FA5F06001D1179 /* link.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = link.png; sourceTree = "<group>"; };
+		C96EB04311FA5F06001D1179 /* openbook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = openbook.png; sourceTree = "<group>"; };
+		C96EB04411FA5F06001D1179 /* Placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Placeholder.png; sourceTree = "<group>"; };
+		C96EB04611FA5F07001D1179 /* StadiumMap.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StadiumMap.xib; sourceTree = "<group>"; };
+		C96EB08011FA606A001D1179 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		C9878D1212076400007E9BF2 /* SharedCore.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SharedCore.xcodeproj; path = ../SharedCore/SharedCore.xcodeproj; sourceTree = SOURCE_ROOT; };
+		C9878D6E1207667F007E9BF2 /* PLBlocks.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PLBlocks.framework; path = /Users/xfsunoles/Desktop/mobile/iOS/PLBlocks.framework; sourceTree = "<absolute>"; };
+		C9B3EC8A11FEA61900591851 /* English */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/Localizable.strings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9878D1D12076407007E9BF2 /* libSharedCore.a in Frameworks */,
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				C96EB08111FA606A001D1179 /* libxml2.dylib in Frameworks */,
+				C91A0BCD11FE5E1400221FFB /* CoreGraphics.framework in Frameworks */,
+				C9878D6F1207667F007E9BF2 /* PLBlocks.framework in Frameworks */,
+				C92D51461251694700A5F361 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* AppDelegate.h */,
+				1D3623250D0F684500981E51 /* AppDelegate.m */,
+				C96669B611FA615800B057E0 /* HeadlinesViewController.h */,
+				C96669B711FA615800B057E0 /* HeadlinesViewController.m */,
+				C96669BD11FA617E00B057E0 /* LinkViewController.h */,
+				C96669BE11FA617E00B057E0 /* LinkViewController.m */,
+				C96669F911FA626B00B057E0 /* SchedulesViewController.h */,
+				C96669FA11FA626B00B057E0 /* SchedulesViewController.m */,
+				C96669FF11FA626B00B057E0 /* StadiumViewController.h */,
+				C9666A0011FA626B00B057E0 /* StadiumViewController.m */,
+				C9666A0311FA626B00B057E0 /* StaffViewController.h */,
+				C9666A0411FA626B00B057E0 /* StaffViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* NolesFootball.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* NolesFootball */ = {
+			isa = PBXGroup;
+			children = (
+				C9878D1212076400007E9BF2 /* SharedCore.xcodeproj */,
+				C96EB04111FA5F06001D1179 /* icon.png */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				C9666A2511FA630100B057E0 /* Resources-iPad */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = NolesFootball;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				28A0AB4B0D9B1048005BE974 /* NolesFootball_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C92024E2120078C5005E6D99 /* icon@2x.png */,
+				C96EB03B11FA5F06001D1179 /* 20-gear2.png */,
+				C96EB03C11FA5F06001D1179 /* 28-star.png */,
+				C96EB03D11FA5F06001D1179 /* 83-calendar.png */,
+				C96EB03E11FA5F06001D1179 /* 103-map.png */,
+				C96EB03F11FA5F06001D1179 /* Default.png */,
+				C96EB04011FA5F06001D1179 /* DoakCampbellStadium.gif */,
+				C96EB04211FA5F06001D1179 /* link.png */,
+				C96EB03011FA5E75001D1179 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* NolesFootball-Info.plist */,
+				C96EB04311FA5F06001D1179 /* openbook.png */,
+				C96EB04411FA5F06001D1179 /* Placeholder.png */,
+				C96EB04611FA5F07001D1179 /* StadiumMap.xib */,
+				C9B3EC8B11FEA61900591851 /* Localizable.strings */,
+				C91E6E24126EA4DA00BD302D /* NewsSource.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				C96EB08011FA606A001D1179 /* libxml2.dylib */,
+				C91A0BCC11FE5E1400221FFB /* CoreGraphics.framework */,
+				C9878D6E1207667F007E9BF2 /* PLBlocks.framework */,
+				C92D51451251694700A5F361 /* SystemConfiguration.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C9666A2511FA630100B057E0 /* Resources-iPad */ = {
+			isa = PBXGroup;
+			children = (
+				C92024E41200794B005E6D99 /* Icon72.png */,
+				C92024EC12007AFD005E6D99 /* MainWindow-iPad.xib */,
+			);
+			path = "Resources-iPad";
+			sourceTree = "<group>";
+		};
+		C9878D1312076400007E9BF2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9878D1A12076400007E9BF2 /* libSharedCore.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* NolesFootball */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "NolesFootball" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9878D1F12076419007E9BF2 /* PBXTargetDependency */,
+			);
+			name = NolesFootball;
+			productName = NolesFootball;
+			productReference = 1D6058910D05DD3D006BFB54 /* NolesFootball.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "NolesFootball" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* NolesFootball */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = C9878D1312076400007E9BF2 /* Products */;
+					ProjectRef = C9878D1212076400007E9BF2 /* SharedCore.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* NolesFootball */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		C9878D1A12076400007E9BF2 /* libSharedCore.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libSharedCore.a;
+			remoteRef = C9878D1912076400007E9BF2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C96EB03111FA5E75001D1179 /* MainWindow.xib in Resources */,
+				C96EB04811FA5F07001D1179 /* 20-gear2.png in Resources */,
+				C96EB04911FA5F07001D1179 /* 28-star.png in Resources */,
+				C96EB04A11FA5F07001D1179 /* 83-calendar.png in Resources */,
+				C96EB04B11FA5F07001D1179 /* 103-map.png in Resources */,
+				C96EB04C11FA5F07001D1179 /* Default.png in Resources */,
+				C96EB04D11FA5F07001D1179 /* DoakCampbellStadium.gif in Resources */,
+				C96EB04E11FA5F07001D1179 /* icon.png in Resources */,
+				C96EB04F11FA5F07001D1179 /* link.png in Resources */,
+				C96EB05011FA5F07001D1179 /* openbook.png in Resources */,
+				C96EB05111FA5F07001D1179 /* Placeholder.png in Resources */,
+				C96EB05311FA5F07001D1179 /* StadiumMap.xib in Resources */,
+				C9B3EC8911FEA61900591851 /* Localizable.strings in Resources */,
+				C92024E3120078C5005E6D99 /* icon@2x.png in Resources */,
+				C92024E51200794B005E6D99 /* Icon72.png in Resources */,
+				C92024ED12007AFD005E6D99 /* MainWindow-iPad.xib in Resources */,
+				C91E6E25126EA4DA00BD302D /* NewsSource.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
+				C96669B811FA615800B057E0 /* HeadlinesViewController.m in Sources */,
+				C96669BF11FA617E00B057E0 /* LinkViewController.m in Sources */,
+				C9666A0511FA626B00B057E0 /* SchedulesViewController.m in Sources */,
+				C9666A0811FA626B00B057E0 /* StadiumViewController.m in Sources */,
+				C9666A0A11FA626B00B057E0 /* StaffViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C9878D1F12076419007E9BF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SharedCore;
+			targetProxy = C9878D1E12076419007E9BF2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C9B3EC8B11FEA61900591851 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9B3EC8A11FEA61900591851 /* English */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_RESOURCE_RULES_PATH = "";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/..\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = NolesFootball_Prefix.pch;
+				HEADER_SEARCH_PATHS = "${PROJECT_DIR}/../SharedCore/build/${BUILD_STYLE}-${PLATFORM_NAME}/usr/local/include";
+				INFOPLIST_FILE = "NolesFootball-Info.plist";
+				LIBRARY_SEARCH_PATHS = "";
+				PRODUCT_NAME = NolesFootball;
+				SDKROOT = iphoneos4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_RESOURCE_RULES_PATH = "";
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/..\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = NolesFootball_Prefix.pch;
+				HEADER_SEARCH_PATHS = "${PROJECT_DIR}/../SharedCore/build/${BUILD_STYLE}-${PLATFORM_NAME}/usr/local/include";
+				INFOPLIST_FILE = "NolesFootball-Info.plist";
+				LIBRARY_SEARCH_PATHS = "";
+				PRODUCT_NAME = NolesFootball;
+				SDKROOT = iphoneos4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Don't Code Sign";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				GCC_VERSION = coop.plausible.blocks.compilers.gcc.4_2;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "${PROJECT_DIR}/../SharedCore/build/${BUILD_STYLE}-${PLATFORM_NAME}/usr/local/include";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos4.2;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Don't Code Sign";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_VERSION = coop.plausible.blocks.compilers.gcc.4_2;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "${PROJECT_DIR}/../SharedCore/build/${BUILD_STYLE}-${PLATFORM_NAME}/usr/local/include";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos4.2;
+			};
+			name = Release;
+		};
+		C95B2D9311FE536D0093CBC4 /* Jailbroken */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGNING_REQUIRED = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Don't Code Sign";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_VERSION = coop.plausible.blocks.compilers.gcc.4_2;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "${PROJECT_DIR}/../SharedCore/build/${BUILD_STYLE}-${PLATFORM_NAME}/usr/local/include";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos4.2;
+			};
+			name = Jailbroken;
+		};
+		C95B2D9411FE536D0093CBC4 /* Jailbroken */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_RESOURCE_RULES_PATH = "";
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/..\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = NolesFootball_Prefix.pch;
+				HEADER_SEARCH_PATHS = "${PROJECT_DIR}/../SharedCore/build/${BUILD_STYLE}-${PLATFORM_NAME}/usr/local/include";
+				INFOPLIST_FILE = "NolesFootball-Info.plist";
+				LIBRARY_SEARCH_PATHS = "";
+				PRODUCT_NAME = NolesFootball;
+				SDKROOT = iphoneos4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+			};
+			name = Jailbroken;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "NolesFootball" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+				C95B2D9411FE536D0093CBC4 /* Jailbroken */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "NolesFootball" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				C95B2D9311FE536D0093CBC4 /* Jailbroken */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

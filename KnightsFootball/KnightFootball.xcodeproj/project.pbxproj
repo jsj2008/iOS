@@ -1,0 +1,520 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* AppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		28AD73880D9D96C1002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD73870D9D96C1002E5188 /* MainWindow.xib */; };
+		C92024E1120077FD005E6D99 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C92024E0120077FD005E6D99 /* icon@2x.png */; };
+		C92D51EC12516F0F00A5F361 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C92D51EB12516F0F00A5F361 /* SystemConfiguration.framework */; };
+		C930A7C011FA5C3F004DD84A /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C930A7BF11FA5C3F004DD84A /* libxml2.dylib */; };
+		C9516F5511FF743D0062034D /* MainWindow-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9516F5411FF743D0062034D /* MainWindow-iPad.xib */; };
+		C95BDF2A11F91A6100382AFF /* LinkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C95BDF2911F91A6100382AFF /* LinkViewController.m */; };
+		C95BDF4011F91D9100382AFF /* StaffViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C95BDF3F11F91D9100382AFF /* StaffViewController.m */; };
+		C9620D7911FA5880001CB150 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9620D7811FA5880001CB150 /* Foundation.framework */; };
+		C9620D7B11FA588A001CB150 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9620D7A11FA588A001CB150 /* UIKit.framework */; };
+		C9620D7D11FA589D001CB150 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9620D7C11FA589D001CB150 /* CoreGraphics.framework */; };
+		C976B43C11F8C62E00227460 /* SchedulesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C976B43B11F8C62E00227460 /* SchedulesViewController.m */; };
+		C9878D6712076644007E9BF2 /* PLBlocks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9878D6612076644007E9BF2 /* PLBlocks.framework */; };
+		C9998B2A11F920D800BA03E8 /* StadiumMap.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9998B2911F920D800BA03E8 /* StadiumMap.xib */; };
+		C9998B2D11F920F100BA03E8 /* ucfseating.gif in Resources */ = {isa = PBXBuildFile; fileRef = C9998B2C11F920F100BA03E8 /* ucfseating.gif */; };
+		C9998B3811F9212C00BA03E8 /* StadiumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9998B3711F9212C00BA03E8 /* StadiumViewController.m */; };
+		C9998B7111F9238C00BA03E8 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C9998B7011F9238C00BA03E8 /* Localizable.strings */; };
+		C9C17B6D1271ED6E00A97CE7 /* NewsSource.plist in Resources */ = {isa = PBXBuildFile; fileRef = C9C17B6C1271ED6E00A97CE7 /* NewsSource.plist */; };
+		C9D41A8E12433901004A6018 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9D41A8D12433901004A6018 /* Security.framework */; };
+		C9D5CF7F11F8018500B9C5AE /* HeadlinesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D5CF7E11F8018500B9C5AE /* HeadlinesViewController.m */; };
+		C9D5CFB211F8057200B9C5AE /* 20-gear2.png in Resources */ = {isa = PBXBuildFile; fileRef = C9D5CFAA11F8057200B9C5AE /* 20-gear2.png */; };
+		C9D5CFB311F8057200B9C5AE /* 28-star.png in Resources */ = {isa = PBXBuildFile; fileRef = C9D5CFAB11F8057200B9C5AE /* 28-star.png */; };
+		C9D5CFB411F8057200B9C5AE /* 83-calendar.png in Resources */ = {isa = PBXBuildFile; fileRef = C9D5CFAC11F8057200B9C5AE /* 83-calendar.png */; };
+		C9D5CFB511F8057200B9C5AE /* 103-map.png in Resources */ = {isa = PBXBuildFile; fileRef = C9D5CFAD11F8057200B9C5AE /* 103-map.png */; };
+		C9D5CFB611F8057200B9C5AE /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C9D5CFAE11F8057200B9C5AE /* Default.png */; };
+		C9D5CFB711F8057200B9C5AE /* link.png in Resources */ = {isa = PBXBuildFile; fileRef = C9D5CFAF11F8057200B9C5AE /* link.png */; };
+		C9D5CFB811F8057200B9C5AE /* openbook.png in Resources */ = {isa = PBXBuildFile; fileRef = C9D5CFB011F8057200B9C5AE /* openbook.png */; };
+		C9D5CFB911F8057200B9C5AE /* Placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = C9D5CFB111F8057200B9C5AE /* Placeholder.png */; };
+		C9D89B0D11FD2E5B00210FA0 /* libSharedCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C9D89B0311FD2E3200210FA0 /* libSharedCore.a */; };
+		C9EEED4711FF6FCB00059E95 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C9EEED4611FF6FCB00059E95 /* icon.png */; };
+		C9EEED4D11FF721700059E95 /* icon72.png in Resources */ = {isa = PBXBuildFile; fileRef = C9EEED4C11FF721700059E95 /* icon72.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C9D89B0211FD2E3200210FA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9D89AFB11FD2E3200210FA0 /* SharedCore.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C9D89AD511FD2DCF00210FA0;
+			remoteInfo = SharedCore;
+		};
+		C9D89B0511FD2E4200210FA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9D89AFB11FD2E3200210FA0 /* SharedCore.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = SharedCore;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D3623240D0F684500981E51 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* KnightsFootball.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KnightsFootball.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		28A0AB4B0D9B1048005BE974 /* KnightFootball_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KnightFootball_Prefix.pch; sourceTree = "<group>"; };
+		28AD73870D9D96C1002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		C92024E0120077FD005E6D99 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		C92D51EB12516F0F00A5F361 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		C930A7BF11FA5C3F004DD84A /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		C9516F5411FF743D0062034D /* MainWindow-iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "MainWindow-iPad.xib"; path = "Resources-iPad/MainWindow-iPad.xib"; sourceTree = "<group>"; };
+		C95BDF2811F91A6100382AFF /* LinkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkViewController.h; sourceTree = "<group>"; };
+		C95BDF2911F91A6100382AFF /* LinkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinkViewController.m; sourceTree = "<group>"; };
+		C95BDF3E11F91D9100382AFF /* StaffViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StaffViewController.h; sourceTree = "<group>"; };
+		C95BDF3F11F91D9100382AFF /* StaffViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StaffViewController.m; sourceTree = "<group>"; };
+		C9620D7811FA5880001CB150 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C9620D7A11FA588A001CB150 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C9620D7C11FA589D001CB150 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C976B43A11F8C62E00227460 /* SchedulesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SchedulesViewController.h; sourceTree = "<group>"; };
+		C976B43B11F8C62E00227460 /* SchedulesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SchedulesViewController.m; sourceTree = "<group>"; };
+		C9878D6612076644007E9BF2 /* PLBlocks.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PLBlocks.framework; path = /Users/xfsunoles/Desktop/mobile/iOS/PLBlocks.framework; sourceTree = "<absolute>"; };
+		C9998B2911F920D800BA03E8 /* StadiumMap.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StadiumMap.xib; sourceTree = "<group>"; };
+		C9998B2C11F920F100BA03E8 /* ucfseating.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ucfseating.gif; sourceTree = "<group>"; };
+		C9998B3611F9212C00BA03E8 /* StadiumViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StadiumViewController.h; sourceTree = "<group>"; };
+		C9998B3711F9212C00BA03E8 /* StadiumViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StadiumViewController.m; sourceTree = "<group>"; };
+		C9998B6E11F9235D00BA03E8 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C9C17B6C1271ED6E00A97CE7 /* NewsSource.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = NewsSource.plist; sourceTree = "<group>"; };
+		C9D41A8D12433901004A6018 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		C9D5CF7D11F8018500B9C5AE /* HeadlinesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeadlinesViewController.h; sourceTree = "<group>"; };
+		C9D5CF7E11F8018500B9C5AE /* HeadlinesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeadlinesViewController.m; sourceTree = "<group>"; };
+		C9D5CFAA11F8057200B9C5AE /* 20-gear2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "20-gear2.png"; sourceTree = "<group>"; };
+		C9D5CFAB11F8057200B9C5AE /* 28-star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "28-star.png"; sourceTree = "<group>"; };
+		C9D5CFAC11F8057200B9C5AE /* 83-calendar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "83-calendar.png"; sourceTree = "<group>"; };
+		C9D5CFAD11F8057200B9C5AE /* 103-map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "103-map.png"; sourceTree = "<group>"; };
+		C9D5CFAE11F8057200B9C5AE /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		C9D5CFAF11F8057200B9C5AE /* link.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = link.png; sourceTree = "<group>"; };
+		C9D5CFB011F8057200B9C5AE /* openbook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = openbook.png; sourceTree = "<group>"; };
+		C9D5CFB111F8057200B9C5AE /* Placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Placeholder.png; sourceTree = "<group>"; };
+		C9D89AFB11FD2E3200210FA0 /* SharedCore.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SharedCore.xcodeproj; path = ../SharedCore/SharedCore.xcodeproj; sourceTree = SOURCE_ROOT; };
+		C9EEED4611FF6FCB00059E95 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		C9EEED4C11FF721700059E95 /* icon72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon72.png; path = "Resources-iPad/icon72.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9620D7911FA5880001CB150 /* Foundation.framework in Frameworks */,
+				C9620D7B11FA588A001CB150 /* UIKit.framework in Frameworks */,
+				C9620D7D11FA589D001CB150 /* CoreGraphics.framework in Frameworks */,
+				C930A7C011FA5C3F004DD84A /* libxml2.dylib in Frameworks */,
+				C9D89B0D11FD2E5B00210FA0 /* libSharedCore.a in Frameworks */,
+				C9878D6712076644007E9BF2 /* PLBlocks.framework in Frameworks */,
+				C9D41A8E12433901004A6018 /* Security.framework in Frameworks */,
+				C92D51EC12516F0F00A5F361 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* AppDelegate.h */,
+				1D3623250D0F684500981E51 /* AppDelegate.m */,
+				C9D5CF7D11F8018500B9C5AE /* HeadlinesViewController.h */,
+				C9D5CF7E11F8018500B9C5AE /* HeadlinesViewController.m */,
+				C95BDF2811F91A6100382AFF /* LinkViewController.h */,
+				C95BDF2911F91A6100382AFF /* LinkViewController.m */,
+				C976B43A11F8C62E00227460 /* SchedulesViewController.h */,
+				C976B43B11F8C62E00227460 /* SchedulesViewController.m */,
+				C9998B3611F9212C00BA03E8 /* StadiumViewController.h */,
+				C9998B3711F9212C00BA03E8 /* StadiumViewController.m */,
+				C95BDF3E11F91D9100382AFF /* StaffViewController.h */,
+				C95BDF3F11F91D9100382AFF /* StaffViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* KnightsFootball.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* KnightFootball */ = {
+			isa = PBXGroup;
+			children = (
+				C9D89AFB11FD2E3200210FA0 /* SharedCore.xcodeproj */,
+				C9EEED4611FF6FCB00059E95 /* icon.png */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				C9EEED4B11FF716B00059E95 /* Resources-iPad */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = KnightFootball;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				28A0AB4B0D9B1048005BE974 /* KnightFootball_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C9D5CFAA11F8057200B9C5AE /* 20-gear2.png */,
+				C9D5CFAB11F8057200B9C5AE /* 28-star.png */,
+				C9D5CFAC11F8057200B9C5AE /* 83-calendar.png */,
+				C9D5CFAD11F8057200B9C5AE /* 103-map.png */,
+				C9D5CFAE11F8057200B9C5AE /* Default.png */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				C9D5CFAF11F8057200B9C5AE /* link.png */,
+				C92024E0120077FD005E6D99 /* icon@2x.png */,
+				C9998B7011F9238C00BA03E8 /* Localizable.strings */,
+				28AD73870D9D96C1002E5188 /* MainWindow.xib */,
+				C9D5CFB011F8057200B9C5AE /* openbook.png */,
+				C9D5CFB111F8057200B9C5AE /* Placeholder.png */,
+				C9998B2911F920D800BA03E8 /* StadiumMap.xib */,
+				C9998B2C11F920F100BA03E8 /* ucfseating.gif */,
+				C9C17B6C1271ED6E00A97CE7 /* NewsSource.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C9620D7811FA5880001CB150 /* Foundation.framework */,
+				C9620D7A11FA588A001CB150 /* UIKit.framework */,
+				C9620D7C11FA589D001CB150 /* CoreGraphics.framework */,
+				C930A7BF11FA5C3F004DD84A /* libxml2.dylib */,
+				C9878D6612076644007E9BF2 /* PLBlocks.framework */,
+				C9D41A8D12433901004A6018 /* Security.framework */,
+				C92D51EB12516F0F00A5F361 /* SystemConfiguration.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C9D89AFC11FD2E3200210FA0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9D89B0311FD2E3200210FA0 /* libSharedCore.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9EEED4B11FF716B00059E95 /* Resources-iPad */ = {
+			isa = PBXGroup;
+			children = (
+				C9EEED4C11FF721700059E95 /* icon72.png */,
+				C9516F5411FF743D0062034D /* MainWindow-iPad.xib */,
+			);
+			name = "Resources-iPad";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* KnightFootball */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "KnightFootball" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9D89B0611FD2E4200210FA0 /* PBXTargetDependency */,
+			);
+			name = KnightFootball;
+			productName = KnightFootball;
+			productReference = 1D6058910D05DD3D006BFB54 /* KnightsFootball.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "KnightFootball" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* KnightFootball */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = C9D89AFC11FD2E3200210FA0 /* Products */;
+					ProjectRef = C9D89AFB11FD2E3200210FA0 /* SharedCore.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* KnightFootball */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		C9D89B0311FD2E3200210FA0 /* libSharedCore.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libSharedCore.a;
+			remoteRef = C9D89B0211FD2E3200210FA0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD73880D9D96C1002E5188 /* MainWindow.xib in Resources */,
+				C9D5CFB211F8057200B9C5AE /* 20-gear2.png in Resources */,
+				C9D5CFB311F8057200B9C5AE /* 28-star.png in Resources */,
+				C9D5CFB411F8057200B9C5AE /* 83-calendar.png in Resources */,
+				C9D5CFB511F8057200B9C5AE /* 103-map.png in Resources */,
+				C9D5CFB611F8057200B9C5AE /* Default.png in Resources */,
+				C9D5CFB711F8057200B9C5AE /* link.png in Resources */,
+				C9D5CFB811F8057200B9C5AE /* openbook.png in Resources */,
+				C9D5CFB911F8057200B9C5AE /* Placeholder.png in Resources */,
+				C9998B2A11F920D800BA03E8 /* StadiumMap.xib in Resources */,
+				C9998B2D11F920F100BA03E8 /* ucfseating.gif in Resources */,
+				C9998B7111F9238C00BA03E8 /* Localizable.strings in Resources */,
+				C9EEED4711FF6FCB00059E95 /* icon.png in Resources */,
+				C9EEED4D11FF721700059E95 /* icon72.png in Resources */,
+				C9516F5511FF743D0062034D /* MainWindow-iPad.xib in Resources */,
+				C92024E1120077FD005E6D99 /* icon@2x.png in Resources */,
+				C9C17B6D1271ED6E00A97CE7 /* NewsSource.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
+				C9D5CF7F11F8018500B9C5AE /* HeadlinesViewController.m in Sources */,
+				C976B43C11F8C62E00227460 /* SchedulesViewController.m in Sources */,
+				C95BDF2A11F91A6100382AFF /* LinkViewController.m in Sources */,
+				C95BDF4011F91D9100382AFF /* StaffViewController.m in Sources */,
+				C9998B3811F9212C00BA03E8 /* StadiumViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C9D89B0611FD2E4200210FA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SharedCore;
+			targetProxy = C9D89B0511FD2E4200210FA0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C9998B7011F9238C00BA03E8 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9998B6E11F9235D00BA03E8 /* English */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGNING_REQUIRED = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/..\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = KnightFootball_Prefix.pch;
+				GCC_VERSION = coop.plausible.blocks.compilers.gcc.4_2;
+				HEADER_SEARCH_PATHS = "${PROJECT_DIR}/../SharedCore/build/${BUILD_STYLE}-${PLATFORM_NAME}/usr/local/include";
+				INFOPLIST_FILE = Info.plist;
+				PRODUCT_NAME = KnightsFootball;
+				SDKROOT = iphoneos4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGNING_REQUIRED = YES;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/..\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = KnightFootball_Prefix.pch;
+				GCC_VERSION = coop.plausible.blocks.compilers.gcc.4_2;
+				HEADER_SEARCH_PATHS = "${PROJECT_DIR}/../SharedCore/build/${BUILD_STYLE}-${PLATFORM_NAME}/usr/local/include";
+				INFOPLIST_FILE = Info.plist;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = KnightsFootball;
+				SDKROOT = iphoneos4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGNING_REQUIRED = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Don't Code Sign";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_VERSION = coop.plausible.blocks.compilers.gcc.4_2;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "${PROJECT_DIR}/../SharedCore/build/${BUILD_STYLE}-${PLATFORM_NAME}/usr/local/include";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos4.2;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGNING_REQUIRED = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Don't Code Sign";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_VERSION = coop.plausible.blocks.compilers.gcc.4_2;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "${PROJECT_DIR}/../SharedCore/build/${BUILD_STYLE}-${PLATFORM_NAME}/usr/local/include";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos4.2;
+			};
+			name = Release;
+		};
+		C9CBF14F12055580005FCD9B /* Jailbroken */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGNING_REQUIRED = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Don't Code Sign";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_VERSION = coop.plausible.blocks.compilers.gcc.4_2;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "${PROJECT_DIR}/../SharedCore/build/${BUILD_STYLE}-${PLATFORM_NAME}/usr/local/include";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos4.2;
+			};
+			name = Jailbroken;
+		};
+		C9CBF15012055580005FCD9B /* Jailbroken */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/..\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = KnightFootball_Prefix.pch;
+				GCC_VERSION = coop.plausible.blocks.compilers.gcc.4_2;
+				HEADER_SEARCH_PATHS = "${PROJECT_DIR}/../SharedCore/build/${BUILD_STYLE}-${PLATFORM_NAME}/usr/local/include";
+				INFOPLIST_FILE = Info.plist;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = KnightsFootball;
+				SDKROOT = iphoneos4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+			};
+			name = Jailbroken;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "KnightFootball" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+				C9CBF15012055580005FCD9B /* Jailbroken */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "KnightFootball" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				C9CBF14F12055580005FCD9B /* Jailbroken */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

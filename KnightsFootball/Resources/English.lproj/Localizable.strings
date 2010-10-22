@@ -1,0 +1,54 @@
+/* 
+   Localizable.strings
+   KnightFootball
+
+   Created by Jonathan Steele on 7/22/10.
+   Copyright 2010 __MyCompanyName__. All rights reserved.
+ */
+
+/* View Controller title */
+"Link" = "Link";
+"Headlines" = "Headlines";
+"Schedules" = "Schedules";
+"Staff" = "Staff";
+"Settings" = "Settings";
+"Stadium" = "Stadium";
+
+/* Title for alert displayed when download error occurs. */
+"Error Title" = "Error Loading";
+"InternetNotFound" = "No Internet Connection";
+
+/* Cancel */
+"Cancel" = "Cancel";
+
+/* OK */
+"OK" = "OK";
+
+/* Safari */
+"Safari" = "Safari";
+
+/* Loading */
+"Loading" = "Loading...";
+
+/* Options */
+"Options" = "Options...";
+
+/* Copyright message */
+"CopyRightMsg" = "Knights Football © 2010\nEmail: xfsunoles@gmail.com";
+
+/* News Source Title */
+"Knights Athletics" = "Knights Athletics";
+"UCF Sports" = "UCF Sports";
+"UCF Pride" = "UCF Pride";
+"O'Leary Blogs" = "O'Leary Blogs";
+"Student Paper" = "Student Paper";
+
+/* News Source */
+"News Source" = "News Source";
+
+/* Instapaper */
+"Enabled" = "Enabled";
+"Username" = "Username";
+"Instapaper Username" = "Instapaper Username";
+"Password" = "Password";
+"Instapaper Password" = "Instapaper Password";
