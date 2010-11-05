@@ -13,11 +13,8 @@
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		C91A0BCD11FE5E1400221FFB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C91A0BCC11FE5E1400221FFB /* CoreGraphics.framework */; };
 		C91E6E25126EA4DA00BD302D /* NewsSource.plist in Resources */ = {isa = PBXBuildFile; fileRef = C91E6E24126EA4DA00BD302D /* NewsSource.plist */; };
-		C92024E3120078C5005E6D99 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C92024E2120078C5005E6D99 /* icon@2x.png */; };
-		C92024E51200794B005E6D99 /* Icon72.png in Resources */ = {isa = PBXBuildFile; fileRef = C92024E41200794B005E6D99 /* Icon72.png */; };
 		C92024ED12007AFD005E6D99 /* MainWindow-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = C92024EC12007AFD005E6D99 /* MainWindow-iPad.xib */; };
 		C92D51461251694700A5F361 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C92D51451251694700A5F361 /* SystemConfiguration.framework */; };
-		C96669B811FA615800B057E0 /* HeadlinesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C96669B711FA615800B057E0 /* HeadlinesViewController.m */; };
 		C96669BF11FA617E00B057E0 /* LinkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C96669BE11FA617E00B057E0 /* LinkViewController.m */; };
 		C9666A0511FA626B00B057E0 /* SchedulesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C96669FA11FA626B00B057E0 /* SchedulesViewController.m */; };
 		C9666A0811FA626B00B057E0 /* StadiumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9666A0011FA626B00B057E0 /* StadiumViewController.m */; };
@@ -68,12 +65,8 @@
 		8D1107310486CEB800E47090 /* NolesFootball-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "NolesFootball-Info.plist"; path = "../NolesFootball-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		C91A0BCC11FE5E1400221FFB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		C91E6E24126EA4DA00BD302D /* NewsSource.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = NewsSource.plist; sourceTree = "<group>"; };
-		C92024E2120078C5005E6D99 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
-		C92024E41200794B005E6D99 /* Icon72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon72.png; path = "Resources-iPad/Icon72.png"; sourceTree = SOURCE_ROOT; };
 		C92024EC12007AFD005E6D99 /* MainWindow-iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "MainWindow-iPad.xib"; path = "Resources-iPad/MainWindow-iPad.xib"; sourceTree = SOURCE_ROOT; };
 		C92D51451251694700A5F361 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		C96669B611FA615800B057E0 /* HeadlinesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeadlinesViewController.h; sourceTree = "<group>"; };
-		C96669B711FA615800B057E0 /* HeadlinesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeadlinesViewController.m; sourceTree = "<group>"; };
 		C96669BD11FA617E00B057E0 /* LinkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkViewController.h; sourceTree = "<group>"; };
 		C96669BE11FA617E00B057E0 /* LinkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinkViewController.m; sourceTree = "<group>"; };
 		C96669F911FA626B00B057E0 /* SchedulesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SchedulesViewController.h; sourceTree = "<group>"; };
@@ -123,8 +116,6 @@
 			children = (
 				1D3623240D0F684500981E51 /* AppDelegate.h */,
 				1D3623250D0F684500981E51 /* AppDelegate.m */,
-				C96669B611FA615800B057E0 /* HeadlinesViewController.h */,
-				C96669B711FA615800B057E0 /* HeadlinesViewController.m */,
 				C96669BD11FA617E00B057E0 /* LinkViewController.h */,
 				C96669BE11FA617E00B057E0 /* LinkViewController.m */,
 				C96669F911FA626B00B057E0 /* SchedulesViewController.h */,
@@ -172,7 +163,6 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				C92024E2120078C5005E6D99 /* icon@2x.png */,
 				C96EB03B11FA5F06001D1179 /* 20-gear2.png */,
 				C96EB03C11FA5F06001D1179 /* 28-star.png */,
 				C96EB03D11FA5F06001D1179 /* 83-calendar.png */,
@@ -207,7 +197,6 @@
 		C9666A2511FA630100B057E0 /* Resources-iPad */ = {
 			isa = PBXGroup;
 			children = (
-				C92024E41200794B005E6D99 /* Icon72.png */,
 				C92024EC12007AFD005E6D99 /* MainWindow-iPad.xib */,
 			);
 			path = "Resources-iPad";
@@ -300,8 +289,6 @@
 				C96EB05111FA5F07001D1179 /* Placeholder.png in Resources */,
 				C96EB05311FA5F07001D1179 /* StadiumMap.xib in Resources */,
 				C9B3EC8911FEA61900591851 /* Localizable.strings in Resources */,
-				C92024E3120078C5005E6D99 /* icon@2x.png in Resources */,
-				C92024E51200794B005E6D99 /* Icon72.png in Resources */,
 				C92024ED12007AFD005E6D99 /* MainWindow-iPad.xib in Resources */,
 				C91E6E25126EA4DA00BD302D /* NewsSource.plist in Resources */,
 			);
@@ -316,7 +303,6 @@
 			files = (
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
-				C96669B811FA615800B057E0 /* HeadlinesViewController.m in Sources */,
 				C96669BF11FA617E00B057E0 /* LinkViewController.m in Sources */,
 				C9666A0511FA626B00B057E0 /* SchedulesViewController.m in Sources */,
 				C9666A0811FA626B00B057E0 /* StadiumViewController.m in Sources */,

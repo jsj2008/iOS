@@ -14,6 +14,7 @@
 
 #import "SettingsViewController.h"
 #import "Model.h"
+#import "Utilities.h"
 #import "InstapaperRequest.h"
 #import "PLPopoverController.h"
 
