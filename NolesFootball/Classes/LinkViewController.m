@@ -23,7 +23,7 @@
 	self = [super initWithStyle:UITableViewStyleGrouped];
 	if (self) {
 		self.title = LocalizedString(@"Link");
-		self.tabBarItem.image = [UIImage imageNamed:@"link.png"];
+		self.tabBarItem.image = [UIImage imageNamed:@"58-bookmark.png"];
 	}
 	return self;
 }

@@ -17,6 +17,19 @@
 
 @implementation ScheduleTableViewDataSource
 
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
+	return _items.count;
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+	return 1;
+}
+
+- (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {
+	NSDictionary *schForNow = [_items objectAtIndex:section];
+	return [schForNow objectForKey:@"date"];
+}
+
 // Customize the appearance of table view cells.
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
 	
@@ -25,11 +38,10 @@
 	ScheduleCell *cell = [[[ScheduleCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:kSchedulesCellID] autorelease];
 	
 	// Configure the cell...
-	NSDictionary *schForNow = [_items objectAtIndex:indexPath.row];
+	NSDictionary *schForNow = [_items objectAtIndex:indexPath.section];
 	cell.schLabel.text = [schForNow objectForKey:@"school"];
 	cell.timeLabel.text = [NSString stringWithFormat:@"Local time: %@", [schForNow objectForKey:@"time"]];
-	cell.dateLabel.text = [NSString stringWithFormat:@"Date: %@", [schForNow objectForKey:@"date"]];
-	cell.tvLabel.text = [schForNow objectForKey:@"tv"];
+	cell.tvLabel.text = [NSString stringWithFormat:@"TV/Result: %@", [schForNow objectForKey:@"tv"]];
 
 	return cell;
 }

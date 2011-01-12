@@ -16,10 +16,15 @@
 #import "Base64.h"
 #import "Utilities.h"
 #import "GDataHTTPFetcher.h"
+#import "KeychainItemWrapper.h"
+
+@interface InstapaperRequest() 
+@property (nonatomic, retain) KeychainItemWrapper *keyChainItem;
+@end
 
 @implementation InstapaperRequest
 
-@synthesize urlString, isPost, title;
+@synthesize urlString, isPost, title, keyChainItem;
 
 setting_definition(INSTAPAPER_ENABLED);
 setting_definition(INSTAPAPER_USERNAME);
@@ -33,6 +38,13 @@ static InstapaperRequest *account;
 	}
 }
 
+- (id)init {
+	self = [super init];
+	if (self)
+		self.keyChainItem = [[KeychainItemWrapper alloc] initWithIdentifier:@"Instapaper" accessGroup:nil];
+	return self;
+}
+
 + (InstapaperRequest *) account
 {
 	return account;
@@ -40,12 +52,12 @@ static InstapaperRequest *account;
 
 - (NSString *) username
 {
-	return [[NSUserDefaults standardUserDefaults] objectForKey:INSTAPAPER_USERNAME];
+	return [keyChainItem objectForKey:INSTAPAPER_USERNAME];
 }
 
 - (NSString *) password
 {
-	return [[NSUserDefaults standardUserDefaults] objectForKey:INSTAPAPER_PASSWORD];
+	return [keyChainItem objectForKey:INSTAPAPER_PASSWORD];
 }
 
 - (BOOL) enabled
@@ -59,12 +71,10 @@ static InstapaperRequest *account;
 
 - (void) setUserName:(NSString *) username password:(NSString *) password
 {
-	if (!self.enabled) {
-		username = @"";
-		password = @"";
-	}
-	[[NSUserDefaults standardUserDefaults] setObject:username forKey:INSTAPAPER_USERNAME];
-	[[NSUserDefaults standardUserDefaults] setObject:password forKey:INSTAPAPER_PASSWORD];
+	if (!self.enabled)
+		[keyChainItem resetKeychainItem];
+	[keyChainItem setObject:username forKey:INSTAPAPER_USERNAME];
+	[keyChainItem setObject:password forKey:INSTAPAPER_PASSWORD];
 }
 
 - (BOOL) instapaperReady
@@ -111,6 +121,11 @@ static InstapaperRequest *account;
 		}
 		[Utilities showAlertView:@"Instapaper Result" message:message];
 	}];
+}
+
+- (void) dealloc {
+	[keyChainItem release];
+	[super dealloc];
 }
 
 @end

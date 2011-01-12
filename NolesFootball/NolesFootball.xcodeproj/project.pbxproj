@@ -23,18 +23,18 @@
 		C96EB04811FA5F07001D1179 /* 20-gear2.png in Resources */ = {isa = PBXBuildFile; fileRef = C96EB03B11FA5F06001D1179 /* 20-gear2.png */; };
 		C96EB04911FA5F07001D1179 /* 28-star.png in Resources */ = {isa = PBXBuildFile; fileRef = C96EB03C11FA5F06001D1179 /* 28-star.png */; };
 		C96EB04A11FA5F07001D1179 /* 83-calendar.png in Resources */ = {isa = PBXBuildFile; fileRef = C96EB03D11FA5F06001D1179 /* 83-calendar.png */; };
-		C96EB04B11FA5F07001D1179 /* 103-map.png in Resources */ = {isa = PBXBuildFile; fileRef = C96EB03E11FA5F06001D1179 /* 103-map.png */; };
 		C96EB04C11FA5F07001D1179 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C96EB03F11FA5F06001D1179 /* Default.png */; };
 		C96EB04D11FA5F07001D1179 /* DoakCampbellStadium.gif in Resources */ = {isa = PBXBuildFile; fileRef = C96EB04011FA5F06001D1179 /* DoakCampbellStadium.gif */; };
 		C96EB04E11FA5F07001D1179 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C96EB04111FA5F06001D1179 /* icon.png */; };
-		C96EB04F11FA5F07001D1179 /* link.png in Resources */ = {isa = PBXBuildFile; fileRef = C96EB04211FA5F06001D1179 /* link.png */; };
-		C96EB05011FA5F07001D1179 /* openbook.png in Resources */ = {isa = PBXBuildFile; fileRef = C96EB04311FA5F06001D1179 /* openbook.png */; };
 		C96EB05111FA5F07001D1179 /* Placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = C96EB04411FA5F06001D1179 /* Placeholder.png */; };
 		C96EB05311FA5F07001D1179 /* StadiumMap.xib in Resources */ = {isa = PBXBuildFile; fileRef = C96EB04611FA5F07001D1179 /* StadiumMap.xib */; };
 		C96EB08111FA606A001D1179 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C96EB08011FA606A001D1179 /* libxml2.dylib */; };
 		C9878D1D12076407007E9BF2 /* libSharedCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C9878D1A12076400007E9BF2 /* libSharedCore.a */; };
 		C9878D6F1207667F007E9BF2 /* PLBlocks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9878D6E1207667F007E9BF2 /* PLBlocks.framework */; };
+		C9A18D7312A5F4600051AF64 /* 58-bookmark.png in Resources */ = {isa = PBXBuildFile; fileRef = C9A18D7112A5F4600051AF64 /* 58-bookmark.png */; };
+		C9A18D7412A5F4600051AF64 /* 166-newspaper.png in Resources */ = {isa = PBXBuildFile; fileRef = C9A18D7212A5F4600051AF64 /* 166-newspaper.png */; };
 		C9B3EC8911FEA61900591851 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C9B3EC8B11FEA61900591851 /* Localizable.strings */; };
+		C9F43DB61284E17300DF421B /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9F43DB51284E17300DF421B /* Security.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,18 +79,18 @@
 		C96EB03B11FA5F06001D1179 /* 20-gear2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "20-gear2.png"; sourceTree = "<group>"; };
 		C96EB03C11FA5F06001D1179 /* 28-star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "28-star.png"; sourceTree = "<group>"; };
 		C96EB03D11FA5F06001D1179 /* 83-calendar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "83-calendar.png"; sourceTree = "<group>"; };
-		C96EB03E11FA5F06001D1179 /* 103-map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "103-map.png"; sourceTree = "<group>"; };
 		C96EB03F11FA5F06001D1179 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		C96EB04011FA5F06001D1179 /* DoakCampbellStadium.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = DoakCampbellStadium.gif; sourceTree = "<group>"; };
 		C96EB04111FA5F06001D1179 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
-		C96EB04211FA5F06001D1179 /* link.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = link.png; sourceTree = "<group>"; };
-		C96EB04311FA5F06001D1179 /* openbook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = openbook.png; sourceTree = "<group>"; };
 		C96EB04411FA5F06001D1179 /* Placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Placeholder.png; sourceTree = "<group>"; };
 		C96EB04611FA5F07001D1179 /* StadiumMap.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StadiumMap.xib; sourceTree = "<group>"; };
 		C96EB08011FA606A001D1179 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 		C9878D1212076400007E9BF2 /* SharedCore.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SharedCore.xcodeproj; path = ../SharedCore/SharedCore.xcodeproj; sourceTree = SOURCE_ROOT; };
 		C9878D6E1207667F007E9BF2 /* PLBlocks.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PLBlocks.framework; path = /Users/xfsunoles/Desktop/mobile/iOS/PLBlocks.framework; sourceTree = "<absolute>"; };
+		C9A18D7112A5F4600051AF64 /* 58-bookmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "58-bookmark.png"; sourceTree = "<group>"; };
+		C9A18D7212A5F4600051AF64 /* 166-newspaper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "166-newspaper.png"; sourceTree = "<group>"; };
 		C9B3EC8A11FEA61900591851 /* English */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C9F43DB51284E17300DF421B /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +105,7 @@
 				C91A0BCD11FE5E1400221FFB /* CoreGraphics.framework in Frameworks */,
 				C9878D6F1207667F007E9BF2 /* PLBlocks.framework in Frameworks */,
 				C92D51461251694700A5F361 /* SystemConfiguration.framework in Frameworks */,
+				C9F43DB61284E17300DF421B /* Security.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,16 +164,15 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				C9A18D7112A5F4600051AF64 /* 58-bookmark.png */,
+				C9A18D7212A5F4600051AF64 /* 166-newspaper.png */,
 				C96EB03B11FA5F06001D1179 /* 20-gear2.png */,
 				C96EB03C11FA5F06001D1179 /* 28-star.png */,
 				C96EB03D11FA5F06001D1179 /* 83-calendar.png */,
-				C96EB03E11FA5F06001D1179 /* 103-map.png */,
 				C96EB03F11FA5F06001D1179 /* Default.png */,
 				C96EB04011FA5F06001D1179 /* DoakCampbellStadium.gif */,
-				C96EB04211FA5F06001D1179 /* link.png */,
 				C96EB03011FA5E75001D1179 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* NolesFootball-Info.plist */,
-				C96EB04311FA5F06001D1179 /* openbook.png */,
 				C96EB04411FA5F06001D1179 /* Placeholder.png */,
 				C96EB04611FA5F07001D1179 /* StadiumMap.xib */,
 				C9B3EC8B11FEA61900591851 /* Localizable.strings */,
@@ -190,6 +190,7 @@
 				C91A0BCC11FE5E1400221FFB /* CoreGraphics.framework */,
 				C9878D6E1207667F007E9BF2 /* PLBlocks.framework */,
 				C92D51451251694700A5F361 /* SystemConfiguration.framework */,
+				C9F43DB51284E17300DF421B /* Security.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -280,17 +281,16 @@
 				C96EB04811FA5F07001D1179 /* 20-gear2.png in Resources */,
 				C96EB04911FA5F07001D1179 /* 28-star.png in Resources */,
 				C96EB04A11FA5F07001D1179 /* 83-calendar.png in Resources */,
-				C96EB04B11FA5F07001D1179 /* 103-map.png in Resources */,
 				C96EB04C11FA5F07001D1179 /* Default.png in Resources */,
 				C96EB04D11FA5F07001D1179 /* DoakCampbellStadium.gif in Resources */,
 				C96EB04E11FA5F07001D1179 /* icon.png in Resources */,
-				C96EB04F11FA5F07001D1179 /* link.png in Resources */,
-				C96EB05011FA5F07001D1179 /* openbook.png in Resources */,
 				C96EB05111FA5F07001D1179 /* Placeholder.png in Resources */,
 				C96EB05311FA5F07001D1179 /* StadiumMap.xib in Resources */,
 				C9B3EC8911FEA61900591851 /* Localizable.strings in Resources */,
 				C92024ED12007AFD005E6D99 /* MainWindow-iPad.xib in Resources */,
 				C91E6E25126EA4DA00BD302D /* NewsSource.plist in Resources */,
+				C9A18D7312A5F4600051AF64 /* 58-bookmark.png in Resources */,
+				C9A18D7412A5F4600051AF64 /* 166-newspaper.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

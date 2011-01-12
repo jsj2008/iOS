@@ -16,7 +16,7 @@
 
 @implementation ScheduleCell
 
-@synthesize timeLabel = _timeLabel, schLabel = _schLabel, dateLabel = _dateLabel , tvLabel = _tvLabel;
+@synthesize timeLabel = _timeLabel, schLabel = _schLabel, tvLabel = _tvLabel;
 
 - (id) initWithStyle: (UITableViewCellStyle) style reuseIdentifier: (NSString *) reuseIdentifier {
 	self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
@@ -32,13 +32,8 @@
 		_timeLabel.font = [UIFont systemFontOfSize:13.0];
 		[self.contentView addSubview:_timeLabel];
 		
-		self.dateLabel = [[[UILabel alloc] initWithFrame:CGRectMake(10, 40, 0, 16)] autorelease];
-		_dateLabel.font = [UIFont systemFontOfSize:13.0];
-		[self.contentView addSubview:_dateLabel];
-		
-		self.tvLabel = [[[UILabel alloc] initWithFrame:CGRectMake(230, 25, 0, 16)] autorelease];
-		_tvLabel.font = [UIFont systemFontOfSize:14.0];
-		_tvLabel.autoresizingMask = UIViewAutoresizingFlexibleLeftMargin;
+		self.tvLabel = [[[UILabel alloc] initWithFrame:CGRectMake(10, 40, 0, 16)] autorelease];
+		_tvLabel.font = [UIFont systemFontOfSize:13.0];
 		[self.contentView addSubview:_tvLabel];
 	}
 	return self;
@@ -47,7 +42,7 @@
 - (void) layoutSubviews {
     [super layoutSubviews];
 	
-    for (UILabel *label in [NSArray arrayWithObjects:_timeLabel, _schLabel, _tvLabel, _dateLabel, nil]) {
+    for (UILabel *label in [NSArray arrayWithObjects:_timeLabel, _schLabel, _tvLabel, nil]) {
         CGRect frame = label.frame;
         frame.size.width = self.contentView.frame.size.width - frame.origin.x;
         label.frame = frame;
@@ -57,7 +52,6 @@
 - (void) dealloc {
 	self.timeLabel = nil;
 	self.schLabel = nil;
-	self.dateLabel = nil;
 	self.tvLabel = nil;
 	[super dealloc];
 }

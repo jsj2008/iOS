@@ -9,6 +9,7 @@
 		<string>UCF Pride</string>
 		<string>O&apos;Leary Blogs</string>
 		<string>Student Paper</string>
+		<string>UCF Today</string>
 	</array>
 	<key>Values</key>
 	<array>
@@ -17,6 +18,7 @@
 		<string>http://feeds2.feedburner.com/sports/college/goldenknightsnotepad</string>
 		<string>http://olearypsiphi.com/RSS/rss.php</string>
 		<string>http://www.centralfloridafuture.com/se/central-florida-future-rss-1.991045</string>
+		<string>http://today.ucf.edu/feed/</string>
 	</array>
 </dict>
 </plist>

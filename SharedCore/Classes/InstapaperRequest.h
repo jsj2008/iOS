@@ -14,9 +14,13 @@
 
 #import <Foundation/Foundation.h>
 
+@class KeychainItemWrapper;
+
 @interface InstapaperRequest : NSObject {
+@private
 	BOOL isPost;
 	NSString *urlString, *title;
+	KeychainItemWrapper *keyChainItem;
 }
 
 @property (nonatomic) BOOL isPost;

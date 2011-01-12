@@ -22,7 +22,7 @@
 @synthesize dataSource = _dataSource;
 
 - (id)init {
-	self = [super initWithStyle:UITableViewStyleGrouped];
+	self = [super initWithStyle:UITableViewStylePlain];
 	if (self) {
 		self.title = LocalizedString(@"Schedules");
 		self.tabBarItem.image = [UIImage imageNamed:@"83-calendar.png"];
@@ -35,7 +35,7 @@
 
 - (void)viewDidLoad {
 	[super viewDidLoad];
-	self.tableView.rowHeight = 60;
+	self.tableView.rowHeight = 57;
 }
 
 - (void)viewWillAppear:(BOOL)animated {

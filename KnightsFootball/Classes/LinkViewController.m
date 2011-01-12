@@ -23,7 +23,7 @@
 	if ((self = [super initWithStyle:UITableViewStyleGrouped]) == nil)
 		return nil;
 	self.title = LocalizedString(@"Link");
-	self.tabBarItem.image = [UIImage imageNamed:@"link.png"];
+	self.tabBarItem.image = [UIImage imageNamed:@"58-bookmark.png"];
 	
 	return self;
 }
@@ -39,7 +39,9 @@
 	[NSDictionary dictionaryWithObjectsAndKeys:@"UCFAlumni.com", @"name", @"http://www.ucfalumni.com/", @"url", nil],
 	[NSDictionary dictionaryWithObjectsAndKeys:@"Alumni Tracker", @"name", @"http://cbs.sportsline.com/collegefootball/alumni-tracker/school/5233", @"url", nil],
 	[NSDictionary dictionaryWithObjectsAndKeys:@"Golden Knights Club", @"name", @"http://www.ucfathleticfund.com/", @"url", nil],
-	[NSDictionary dictionaryWithObjectsAndKeys:@"Radio Network", @"name", @"http://ucfathletics.cstv.com/multimedia/ucf-isp-radio-network.html", @"url", nil], nil]];
+	[NSDictionary dictionaryWithObjectsAndKeys:@"Radio Network", @"name", @"http://ucfathletics.cstv.com/multimedia/ucf-isp-radio-network.html", @"url", nil],
+	[NSDictionary dictionaryWithObjectsAndKeys:@"UCF Photos", @"name", @"http://ucfphotos.photoshelter.com/gallery-list", @"url", nil],
+																 nil]];
 	self.tableView.dataSource = dataSource;
 }
 

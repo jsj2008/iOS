@@ -15,9 +15,9 @@
 #import <UIKit/UIKit.h>
 
 @interface ScheduleCell : UITableViewCell {
-	UILabel *_schLabel, *_timeLabel, *_dateLabel, *_tvLabel;
+	UILabel *_schLabel, *_timeLabel, *_tvLabel;
 }
 
-@property (nonatomic, retain) UILabel *schLabel, *timeLabel, *dateLabel, *tvLabel;
+@property (nonatomic, retain) UILabel *schLabel, *timeLabel, *tvLabel;
 
 @end

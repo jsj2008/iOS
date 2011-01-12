@@ -30,7 +30,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 	NSMutableArray *tabArray = [NSMutableArray array];
 	UINavigationController *navigationController;
-	UITabBarItem *newsItem = [[[UITabBarItem alloc] initWithTitle:LocalizedString(@"Headlines") image:[UIImage imageNamed:@"openbook.png"] tag:0] autorelease];
+	UITabBarItem *newsItem = [[[UITabBarItem alloc] initWithTitle:LocalizedString(@"Headlines") image:[UIImage imageNamed:@"166-newspaper.png"] tag:0] autorelease];
     if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad) {
 		splitViewController.tabBarItem = newsItem;
 		[tabArray addObject:splitViewController];

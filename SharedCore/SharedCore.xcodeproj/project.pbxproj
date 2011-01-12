@@ -33,6 +33,8 @@
 		C9B5EA6012834DD900F2EFE6 /* HeadlinesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9B5EA5E12834DD900F2EFE6 /* HeadlinesViewController.m */; };
 		C9C7C2541270CEE900DCEBD7 /* SettingsViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C9C7C2521270CEE900DCEBD7 /* SettingsViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C9C7C2551270CEE900DCEBD7 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C7C2531270CEE900DCEBD7 /* SettingsViewController.m */; };
+		C9CBEDC91284CC3C00F28630 /* KeychainItemWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = C9CBEDC71284CC3C00F28630 /* KeychainItemWrapper.h */; };
+		C9CBEDCA1284CC3C00F28630 /* KeychainItemWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = C9CBEDC81284CC3C00F28630 /* KeychainItemWrapper.m */; };
 		C9FB0A1912317D3F00281AEE /* AbstractTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C9FB09E812317D3F00281AEE /* AbstractTableViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C9FB0A1A12317D3F00281AEE /* AbstractTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9FB09E912317D3F00281AEE /* AbstractTableViewController.m */; };
 		C9FB0A1B12317D3F00281AEE /* Feed.h in Headers */ = {isa = PBXBuildFile; fileRef = C9FB09EA12317D3F00281AEE /* Feed.h */; settings = {ATTRIBUTES = (); }; };
@@ -113,6 +115,8 @@
 		C9B5EA5E12834DD900F2EFE6 /* HeadlinesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeadlinesViewController.m; sourceTree = "<group>"; };
 		C9C7C2521270CEE900DCEBD7 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
 		C9C7C2531270CEE900DCEBD7 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		C9CBEDC71284CC3C00F28630 /* KeychainItemWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainItemWrapper.h; sourceTree = "<group>"; };
+		C9CBEDC81284CC3C00F28630 /* KeychainItemWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeychainItemWrapper.m; sourceTree = "<group>"; };
 		C9FB09E812317D3F00281AEE /* AbstractTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractTableViewController.h; sourceTree = "<group>"; };
 		C9FB09E912317D3F00281AEE /* AbstractTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractTableViewController.m; sourceTree = "<group>"; };
 		C9FB09EA12317D3F00281AEE /* Feed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Feed.h; sourceTree = "<group>"; };
@@ -327,6 +331,8 @@
 				C96C1258123995D70062EA73 /* GDataHTTPFetcher.m */,
 				C9FB0A0812317D3F00281AEE /* JSONParser.h */,
 				C9FB0A0912317D3F00281AEE /* JSONParser.m */,
+				C9CBEDC71284CC3C00F28630 /* KeychainItemWrapper.h */,
+				C9CBEDC81284CC3C00F28630 /* KeychainItemWrapper.m */,
 				C9FB0A1312317D3F00281AEE /* TouchXMLReader.h */,
 				C9FB0A1412317D3F00281AEE /* TouchXMLReader.m */,
 				C9FB09F912317D3F00281AEE /* Utilities.h */,
@@ -392,6 +398,7 @@
 				C91A1640126FF5F600D1D949 /* NewsSourceSettingsController.h in Headers */,
 				C9C7C2541270CEE900DCEBD7 /* SettingsViewController.h in Headers */,
 				C9B5EA5F12834DD900F2EFE6 /* HeadlinesViewController.h in Headers */,
+				C9CBEDC91284CC3C00F28630 /* KeychainItemWrapper.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +489,7 @@
 				C91A1641126FF5F600D1D949 /* NewsSourceSettingsController.m in Sources */,
 				C9C7C2551270CEE900DCEBD7 /* SettingsViewController.m in Sources */,
 				C9B5EA6012834DD900F2EFE6 /* HeadlinesViewController.m in Sources */,
+				C9CBEDCA1284CC3C00F28630 /* KeychainItemWrapper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
